@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 1rem;
+}
+button {
+    background: #444;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+button:hover {
+    background: #555;
+}
+
+main {
+    padding: 2rem;
+}
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.work {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
